@@ -1,0 +1,78 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.venv-*/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Pengaturan lokal
+.vscode/
+.idea/
+/.server_publish/
+.DS_Store
+Thumbs.db
+
+# Hasil eksperimen dan cache disalin langsung ke server
+hasil/
+outputs/
+outputs_*/
+/.cache/
+/hf_cache/
+/hf_cp2_models/
+/hf_cp2_cache/
+/wandb/
+/mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Dokumen, catatan riset, dan laporan lokal
+docs/
+reports/
+research_notes/
+laporan/
+*.[mM][dD]
+*.[pP][dD][fF]
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.odt
+
+# Data publik dan arsip
+data/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# File sementara dan log
+*.tmp
+*.bak
+*.log
+*.pid
+*.exitcode
+log_training*.txt
+/execution_status.json
+
+# Salinan dan pekerjaan sementara
+/archive/
+/archives/
+/tmp/
+/temp/
+/scratchpad/
+/imports/
+/cp1_verify_*/
